@@ -72,7 +72,7 @@ class Model(object):
         """
         # TODO
         linear_speed = (self.m1.speed - self.m2.speed)/2
-        rotation_speed = (self.m1.speed - self.m2.speed)/self.l
+        rotation_speed = (self.m1.speed + self.m2.speed)/self.l
 
         return linear_speed, rotation_speed
 
