@@ -52,7 +52,7 @@ class Model(object):
             float -- Speed of motor1 (m/s), speech of motor2 (m/s)
         """
         # TODO
-        rotation_speed = (self.m1.speed - self.m2.speed)/self.l
+        rotation_speed = 0 #(self.m1.speed - self.m2.speed)/self.l
         m1_speed = linear_speed - (self.l/2)*rotation_speed
         m2_speed = linear_speed + (self.l/2)*rotation_speed
 
